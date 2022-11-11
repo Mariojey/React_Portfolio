@@ -1,23 +1,33 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+//Import Components
+import Navbar from './components/Navbar';
+
+let language = "English";
 
 function App() {
+
+  let home="Home";
+  let aboutMe="AboutMe";
+  let projects="Projects";
+  let contact="Contact me";
+
+  if (language !== "English") {
+    home="Główna";
+    aboutMe="O mnie";
+    projects="Projekty";
+    contact="Kontakt";
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar 
+        home={home}
+        aboutMe={aboutMe}
+        projects={projects}
+        contact={contact}
+      />
     </div>
   );
 }
