@@ -49,6 +49,7 @@
 
 .App {
     text-align: center;
+    background-color: var(--black);
 }
 
 .navbarContainer {
@@ -95,4 +96,47 @@
 .navLink {
     text-decoration: none;
     color: var(--white);
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 175px;
+    font-size: calc(var(--fontSize)-4);
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+}
+
+.cardImage {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.cardTitle {
+    font-size: var(--fontSize);
+}
+
+.cardDescription {
+    font-size: var(--fontSize);
+}
+
+.cardTechnologies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.cardTechnologiesItem {
+    color: white;
+    margin: 10px;
 }
