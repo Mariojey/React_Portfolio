@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 //Import Components
 import Navbar from './components/Navbar';
@@ -7,7 +7,10 @@ import Card from './components/Card';
 //Import Data
 import data from './data';
 
-let language = "English";
+
+function App() {
+
+  let language = "English";
   const cards = data.map(item => {
     return(
       <Card 
@@ -16,7 +19,6 @@ let language = "English";
       />
     )
   })
-function App() {
 
   let home="Home";
   let aboutMe="AboutMe";
@@ -38,6 +40,7 @@ function App() {
         projects={projects}
         contact={contact}
       />
+      <h1 className='cardsHeader'>My Projects</h1>
       <section className='cardList'>
         {cards}
       </section>

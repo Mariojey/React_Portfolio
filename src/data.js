@@ -29,6 +29,18 @@ export default [{
             first: 'javascript',
             second: 'mongodb',
             third: 'docker',
-        }
+        },
+        coverImg: 'pfe.jpg'
     },
+    {
+        id: 3,
+        title: "MakeFluent",
+        description: "Browser's app for learning english and germany words for polish students",
+        technologies: {
+            first: 'javascript',
+            second: 'html',
+            third: 'css',
+        },
+        coverImg: 'make_fluent.svg'
+    }
 ]
