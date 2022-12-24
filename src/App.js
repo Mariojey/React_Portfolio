@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 //Import Components
 import Navbar from './components/Navbar';
+import Home from './components/Home';
 import Card from './components/Card';
 //Import Data
 import data from './data';
@@ -40,6 +41,7 @@ function App() {
         projects={projects}
         contact={contact}
       />
+      <Home />
       <h1 className='cardsHeader'>My Projects</h1>
       <section className='cardList'>
         {cards}
