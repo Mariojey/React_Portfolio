@@ -13,7 +13,7 @@ export default [{
     {
         id: 1,
         title: "GateWay",
-        description: "2D, logic game for learning logic gates",
+        description: "2D, singleplayer,  logic game for learning logic gates and building circuits",
         technologies: {
             first: 'unity',
             second: 'cog',

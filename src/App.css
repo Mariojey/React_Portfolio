@@ -360,6 +360,7 @@
 .cardDescription {
     font-size: calc(var(--fontSize)-4);
     padding-bottom: 100px;
+    width: 98%;
 }
 
 .cardTechnologies {
