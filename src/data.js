@@ -5,7 +5,7 @@ export default [{
         description: "Mobile App and Website for local voting and elections",
         technologies: {
             first: 'react',
-            second: 'react',
+            second: 'javascript',
             third: 'mongodb',
         },
         coverImg: 'zirael.png'

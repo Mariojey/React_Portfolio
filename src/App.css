@@ -5,6 +5,7 @@
     --fontSize: 20px;
     --logotypFontSize: 34px;
     --greyForBackground: #4e4c4c;
+    --bannerLetterFontSize: 35px;
 }
 
 
@@ -136,6 +137,21 @@
     min-width: 50%;
     height: 100%;
     align-items: center;
+}
+
+
+/* BANNER */
+
+.homeRightDivBanner {
+    color: var(--white);
+    font-family: 'Combo', cursive;
+    padding-top: 100px;
+    font-size: var(--bannerLetterFontSize);
+    transition: 500ms;
+}
+
+.homeRightDivBanner span:hover {
+    font-size: calc(var(--bannerLetterFontSize)*1.9);
 }
 
 
@@ -348,3 +364,8 @@
     color: white;
     margin: 10px;
 }
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {}
