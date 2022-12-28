@@ -9,9 +9,9 @@ export default function Card(props){
             <p className="cardTitle">{props.item.title}</p>
             <p className="cardDescription">{props.item.description}</p>
             <div className="cardTechnologies">
-                <Icon icon={`bxl:${props.item.technologies.first}`} />
-                <Icon icon={`bxl:${props.item.technologies.second}`} />
-                <Icon icon={`bxl:${props.item.technologies.third}`} />
+                <Icon icon={`bxl:${props.item.technologies.first}`} className="cardTechnologiesItem" />
+                <Icon icon={`bxl:${props.item.technologies.second}`} className="cardTechnologiesItem" />
+                <Icon icon={`bxl:${props.item.technologies.third}`} className="cardTechnologiesItem"/>
             </div>
         </div>
     )

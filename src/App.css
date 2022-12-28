@@ -6,6 +6,7 @@
     --logotypFontSize: 34px;
     --greyForBackground: #4e4c4c;
     --bannerLetterFontSize: 35px;
+    --fontSizeMobile: 28px
 }
 
 
@@ -357,6 +358,7 @@
 
 .cardDescription {
     font-size: calc(var(--fontSize)-4);
+    padding-bottom: 100px;
 }
 
 .cardTechnologies {
@@ -564,5 +566,54 @@
         margin-top: -19px;
         margin-left: 5px;
         z-index: 2;
+    }
+    /* CARDS */
+    .cardList {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+        overflow-x: auto;
+        background-image: url('../public/images/repeated-square-dark.webp');
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .card {
+        width: calc(100vw - 100px);
+        min-height: calc(100vh - 400px);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: calc(var(--fontSize)-4);
+        font-family: 'Combo', cursive;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        color: var(--white);
+        background-color: var(--black);
+        border-radius: 22px;
+        -webkit-box-shadow: 0px 0px 23px 1px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 0px 0px 23px 1px rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 23px 1px rgba(255, 255, 255, 1);
+    }
+    .cardTitle {
+        font-size: var(--fontSizeMobile);
+    }
+    .cardDescription {
+        font-size: calc(var(--fontSizeMobile)-4);
+        padding-bottom: 80px;
+    }
+    .cardTechnologies {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .cardTechnologiesItem {
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
