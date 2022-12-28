@@ -382,9 +382,21 @@
     min-height: 100vh;
 }
 
-.selectorAboutMe {
+.aboutMeCoding {
     width: 100%;
-    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMeCodingVectors {
+    width: 50%;
+}
+
+.aboutMeCodingText {
+    width: 50%;
+    font-family: 'Combo', cursive;
+    font-size: var(--fontSize);
+    color: var(--white);
 }
 
 

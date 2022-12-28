@@ -4,6 +4,7 @@ import './App.css';
 //Import Components
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import AboutMe from './components/AboutMe'
 import Card from './components/Card';
 //Import Data
 import data from './data';
@@ -42,6 +43,7 @@ function App() {
         contact={contact}
       />
       <Home />
+      <AboutMe />
       <h1 className='cardsHeader'>My Projects</h1>
       <section className='cardList'>
         {cards}
