@@ -28,7 +28,8 @@ export default function About(){
                 <div className="aboutMeSchoolContestsVectors"></div>
             </div>
             <div className="aboutMeFantasy"></div>
-            <div className="jobs"></div>
+            <h1 className='cardsHeader'>My Jobs</h1>
+            <div className="jobs">{jobs}</div>
         </div>
     )
 }

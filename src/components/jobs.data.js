@@ -7,7 +7,7 @@ export default [{
         second: 'mongodb',
         third: 'react'
     },
-    begin: 'Aug 2021',
-    end: 'Oct 2022',
+    begin: 'Aug 2021  -',
+    end: 'Dec 2022',
     coverImg: 'pfe.jpg'
 }]
