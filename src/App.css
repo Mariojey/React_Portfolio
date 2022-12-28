@@ -336,6 +336,13 @@
     color: var(--white);
     background-color: var(--black);
     border-radius: 22px;
+    -webkit-box-shadow: 0px 0px 23px 1px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 23px 1px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 23px 1px rgba(255, 255, 255, 1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
 
 .cardImage {
