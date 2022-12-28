@@ -399,6 +399,23 @@
     color: var(--white);
 }
 
+.aboutMeSchool {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMeSchoolContestsVectors {
+    width: 50%;
+}
+
+.aboutMeSchoolText {
+    width: 50%;
+    font-family: 'Combo', cursive;
+    font-size: var(--fontSize);
+    color: var(--white);
+}
+
 
 /* RESPONSIVE */
 

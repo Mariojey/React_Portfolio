@@ -1,9 +1,19 @@
 import React from "react";
 import '../App.css';
 import textAboutMe from "./text.AboutMe";
+import Job from "./Job";
+import jobsData from "./jobs.data";
 
 export default function About(){
 
+    const jobs = jobsData.map(item => {
+        return(
+            <Job
+                key={item.id}
+                item={item}
+            />
+        )
+    })
 
     return(
         <div className="aboutMe">
@@ -14,10 +24,11 @@ export default function About(){
             <div className="aboutMeCodingTimestamps">
             </div>
             <div className="aboutMeSchool">
+                <div className="aboutMeSchoolText">{textAboutMe[1]}</div>
                 <div className="aboutMeSchoolContestsVectors"></div>
-                <div className="aboutMeSchoolText"></div>
             </div>
             <div className="aboutMeFantasy"></div>
+            <div className="jobs"></div>
         </div>
     )
 }
