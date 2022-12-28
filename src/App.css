@@ -375,6 +375,19 @@
 }
 
 
+/* ABOUT ME */
+
+.aboutMe {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.selectorAboutMe {
+    width: 100%;
+    min-height: 50px;
+}
+
+
 /* RESPONSIVE */
 
 @media (max-width: 1200px) {
