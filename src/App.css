@@ -368,4 +368,194 @@
 
 /* RESPONSIVE */
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    /* NAVBAR */
+    .navbarContainer {
+        width: 100%;
+        min-height: 60%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Combo', cursive;
+        color: var(--white);
+        background-color: var(--black);
+    }
+    .navLogotyp {
+        width: 100%;
+        min-height: 30%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: var(--logotypFontSize);
+    }
+    .navContent {
+        width: 100%;
+        min-height: 70%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .navList {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+    }
+    .navItem {
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: var(--fontSize);
+    }
+    /* HOME */
+    .homeContainer {
+        width: 100%;
+        min-height: 120vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .homeRightDiv {
+        width: 100%;
+        align-items: center;
+    }
+    .homeLeftDiv {
+        width: 100%;
+        align-items: center;
+    }
+    /* BANNER */
+    .homeRightDivBanner {
+        color: var(--white);
+        font-family: 'Combo', cursive;
+        padding-top: 50px;
+        font-size: calc(var(--bannerLetterFontSize)*0.6);
+        transition: 500ms;
+    }
+    .homeRightDivBanner span:hover {
+        font-size: calc(var(--bannerLetterFontSize)*1.2);
+    }
+    /* COFFEE */
+    #containerCoffee {
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .steam {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-top: -75px;
+        margin-left: 75px;
+        z-index: 0;
+        opacity: 0;
+    }
+    #steam1 {
+        -webkit-animation: steam1 4s ease-out infinite;
+        animation: steam1 4s ease-out infinite;
+    }
+    #steam3 {
+        -webkit-animation: steam1 4s ease-out 1s infinite;
+        animation: steam1 4s ease-out 1s infinite;
+    }
+    @-webkit-keyframes steam1 {
+        0% {
+            transform: translateY(0) translateX(0) scale(0.25);
+            opacity: 0.2;
+        }
+        100% {
+            transform: translateY(-200px) translateX(-20px) scale(1);
+            opacity: 0;
+        }
+    }
+    @keyframes steam1 {
+        0% {
+            transform: translateY(0) translateX(0) scale(0.25);
+            opacity: 0.2;
+        }
+        100% {
+            transform: translateY(-200px) translateX(-20px) scale(1);
+            opacity: 0;
+        }
+    }
+    #steam2 {
+        -webkit-animation: steam2 4s ease-out 0.5s infinite;
+        animation: steam2 4s ease-out 0.5s infinite;
+    }
+    #steam4 {
+        -webkit-animation: steam2 4s ease-out 1.5s infinite;
+        animation: steam2 4s ease-out 1.5s infinite;
+    }
+    @-webkit-keyframes steam2 {
+        0% {
+            transform: translateY(0) translateX(0) scale(0.25);
+            opacity: 0.2;
+        }
+        100% {
+            transform: translateY(-200px) translateX(20px) scale(1);
+            opacity: 0;
+        }
+    }
+    @keyframes steam2 {
+        0% {
+            transform: translateY(0) translateX(0) scale(0.25);
+            opacity: 0.2;
+        }
+        100% {
+            transform: translateY(-200px) translateX(20px) scale(1);
+            opacity: 0;
+        }
+    }
+    #cup {
+        z-index: 1;
+    }
+    #cup-body {
+        position: absolute;
+        height: 200px;
+        width: 300px;
+        border-radius: 0 0 150px 150px;
+        background-color: #fff;
+        margin: auto;
+        display: inline-block;
+        overflow: hidden;
+        z-index: 2;
+    }
+    #cup-shade {
+        position: relative;
+        height: 300px;
+        width: 200px;
+        background-color: #F3F3F3;
+        display: inline-block;
+        margin-left: 42%;
+        margin-top: -3px;
+        transform: rotate(50deg);
+        z-index: 1;
+    }
+    #cup-handle {
+        position: relative;
+        height: 90px;
+        width: 100px;
+        border-radius: 0 150px 150px 0;
+        border: 15px solid #F3F3F3;
+        margin-bottom: 95px;
+        margin-left: 250px;
+        display: inline-block;
+        z-index: 2;
+    }
+    #saucer {
+        position: absolute;
+        height: 30px;
+        width: 300px;
+        border-radius: 0 0 100px 100px;
+        background-color: #F9F9F9;
+        margin-top: -19px;
+        margin-left: 5px;
+        z-index: 2;
+    }
+}
