@@ -311,6 +311,7 @@
     font-size: calc(var(--fontSize)*1.3);
     color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
 }
 
 .cardList {
@@ -387,11 +388,19 @@
 .aboutMeCoding {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .aboutMeCodingVectors {
     width: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutMeCodingText {
@@ -399,12 +408,17 @@
     font-family: 'Combo', cursive;
     font-size: var(--fontSize);
     color: var(--white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
 }
 
 .aboutMeSchool {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 100px;
 }
 
 .aboutMeSchoolContestsVectors {
@@ -425,6 +439,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 80px;
+    margin-bottom: 150px;
 }
 
 .job {
@@ -504,6 +519,15 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+
+/*VECTORS */
+
+.aboutMeVectorImg {
+    max-width: 12vw;
+    max-height: 12vh;
+    margin: 20px;
 }
 
 
