@@ -430,6 +430,10 @@
     font-family: 'Combo', cursive;
     font-size: var(--fontSize);
     color: var(--white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
 }
 
 
@@ -771,6 +775,54 @@
         color: white;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    /* ABOUT ME */
+    .aboutMe {
+        width: 100%;
+        min-height: 100vh;
+    }
+    .aboutMeCoding {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .aboutMeCodingVectors {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutMeCodingText {
+        width: 100%;
+        font-family: 'Combo', cursive;
+        font-size: var(--fontSize);
+        color: var(--white);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutMeSchool {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .aboutMeSchoolContestsVectors {
+        width: 50%;
+    }
+    .aboutMeSchoolText {
+        width: 100%;
+        font-family: 'Combo', cursive;
+        font-size: var(--fontSize);
+        color: var(--white);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     /* JOBS RESPONSIVE */
     .jobs {
