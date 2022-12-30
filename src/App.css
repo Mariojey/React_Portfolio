@@ -462,7 +462,7 @@
 }
 
 .job:hover {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
 }
 
 .jobImg {
@@ -532,6 +532,38 @@
     max-width: 12vw;
     max-height: 12vh;
     margin: 20px;
+    transition: 600ms;
+}
+
+.aboutMeVectorImgSchool {
+    max-width: 12vw;
+    max-height: 12vh;
+    margin: 20px;
+    transition: 600ms;
+}
+
+.aboutMeVectorImg:nth-child(1):hover {
+    transform: translateY(-90px);
+}
+
+.aboutMeVectorImg:nth-child(2):hover {
+    transform: rotateY(180deg);
+}
+
+.aboutMeVectorImg:nth-child(3):hover {
+    transform: rotateY(180deg) rotateX(180deg);
+}
+
+.aboutMeVectorImgSchool:nth-child(1):hover {
+    transform: rotate(1turn);
+}
+
+.aboutMeVectorImgSchool:nth-child(2):hover {
+    transform: rotateY(180deg);
+}
+
+.aboutMeVectorImgSchool:nth-child(3):hover {
+    transform: rotate(1turn);
 }
 
 

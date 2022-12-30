@@ -30,7 +30,9 @@ export default function About(){
             <div className="aboutMeSchool">
                 <div className="aboutMeSchoolText">{textAboutMe[1]}</div>
                 <div className="aboutMeSchoolContestsVectors">
-                <img src="../images/python.svg" alt="python" className="aboutMeVectorImg"/>
+                    <img src="../images/python.svg" alt="python" className="aboutMeVectorImgSchool"/>
+                    <img src="../images/typescript.svg" alt="python" className="aboutMeVectorImgSchool"/>
+                    <img src="../images/react.svg" alt="python" className="aboutMeVectorImgSchool"/>
                 </div>
             </div>
             <div className="aboutMeFantasy"></div>
