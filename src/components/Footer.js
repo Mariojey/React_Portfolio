@@ -11,10 +11,10 @@ export default function Footer(props){
                     <nav className="navContentFooter">
                         <ul className="navListFooter">
                                 <li className="navItem">
-                                    <a href="#" className="navLink">{props.home}</a>
+                                    <a href="#home" className="navLink">{props.home}</a>
                                 </li>
                                 <li className="navItem">
-                                    <a href="#sectionOrigin" className="navLink">{props.aboutMe}</a>
+                                    <a href="#aboutMe" className="navLink">{props.aboutMe}</a>
                                 </li>
                                 <li className="navItem">
                                     <a href="#cardList" className="navLink">{props.projects}</a>

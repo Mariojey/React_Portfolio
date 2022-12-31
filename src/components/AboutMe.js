@@ -16,7 +16,7 @@ export default function About(){
     })
 
     return(
-        <div className="aboutMe">
+        <div className="aboutMe" id="aboutMe">
             <div className="aboutMeCoding">
                 <div className="aboutMeCodigVectors">
                     <img src="../images/node.svg" alt="node.js" className="aboutMeVectorImg"/>

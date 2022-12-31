@@ -10,10 +10,10 @@ export default function Navbar(props){
             <div className="navContent">
             <ul className="navList">
                     <li className="navItem">
-                        <a href="#" className="navLink">{props.home}</a>
+                        <a href="#home" className="navLink">{props.home}</a>
                     </li>
                     <li className="navItem">
-                        <a href="#sectionOrigin" className="navLink">{props.aboutMe}</a>
+                        <a href="#aboutMe" className="navLink">{props.aboutMe}</a>
                     </li>
                     <li className="navItem">
                         <a href="#cardList" className="navLink">{props.projects}</a>

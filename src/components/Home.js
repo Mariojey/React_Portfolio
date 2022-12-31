@@ -3,7 +3,7 @@ import '../App.css'
 
 export default function Home(){
     return(
-        <div className="homeContainer">
+        <div className="homeContainer" id="home">
             <div className="homeRightDiv">
                 <div className="homeRightDivBanner">
                     <h1> <span>H</span><span>i</span></h1>
