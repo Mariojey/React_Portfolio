@@ -46,7 +46,7 @@ function App() {
       <Home />
       <AboutMe />
       <h1 className='cardsHeader'>My Projects</h1>
-      <section className='cardList'>
+      <section className='cardList' id='cardList'>
         {cards}
       </section>
       <Footer 
