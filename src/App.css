@@ -567,6 +567,25 @@
 }
 
 
+/* FOOTER */
+
+.navContentFooter {
+    min-width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.navListFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+
 /* RESPONSIVE */
 
 @media (max-width: 1200px) {

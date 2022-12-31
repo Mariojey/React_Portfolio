@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe'
 import Card from './components/Card';
+import Footer from './components/Footer';
 //Import Data
 import data from './data';
 
@@ -48,6 +49,12 @@ function App() {
       <section className='cardList'>
         {cards}
       </section>
+      <Footer 
+        home={home}
+        aboutMe={aboutMe}
+        projects={projects}
+        contact={contact}
+      />
     </div>
   );
 }
