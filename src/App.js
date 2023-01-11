@@ -9,6 +9,7 @@ import Card from './components/Card';
 import Footer from './components/Footer';
 //Import Data
 import data from './data';
+import FindMe from './components/FindMe';
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
       <section className='cardList' id='cardList'>
         {cards}
       </section>
+      <FindMe />
       <Footer 
         home={home}
         aboutMe={aboutMe}
