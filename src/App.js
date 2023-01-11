@@ -50,6 +50,7 @@ function App() {
       <section className='cardList' id='cardList'>
         {cards}
       </section>
+      <h1 className='findMeHeader'>Find Me On</h1>
       <FindMe />
       <Footer 
         home={home}

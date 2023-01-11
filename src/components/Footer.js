@@ -27,6 +27,7 @@ export default function Footer(props){
                 </div>
                 <div className="footerRight">
                     <p>Make Fluent logo's author veernavy from Vecteezy.com</p>
+                    <p>Gmail Logo icon by Icons8</p>
                 </div>
             </div>
             <div className="bottomBarFooter"><p>Made with <BiHeart /> by Mariusz Jacek</p> </div>
