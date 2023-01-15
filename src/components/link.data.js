@@ -16,10 +16,10 @@ export default [{
     },
     {
         id: 2,
-        link: 'https://github.com/Mariojey',
-        img: 'github-mark-white.svg',
-        portal: 'GitHub',
-        name: 'MarioJey',
+        link: 'https://www.linkedin.com/in/mariusz-jacek-9b02b81b7/',
+        img: 'linkedin.svg',
+        portal: 'LinkedIn',
+        name: 'Mariusz Jacek',
         theme: '#7289da'
     }
 ]

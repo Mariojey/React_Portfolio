@@ -35,6 +35,8 @@ function App() {
     projects="Projekty";
     contact="Kontakt";
   }
+  let con = "contact";
+  let find = "find";
 
   return (
     <div className="App">
@@ -50,8 +52,14 @@ function App() {
       <section className='cardList' id='cardList'>
         {cards}
       </section>
-      <h1 className='findMeHeader'>Find Me On</h1>
-      <FindMe />
+      <div className="findAndContactMeRow">
+        <FindMe 
+          type={find}
+        />
+        <FindMe 
+          type={con}
+        />
+      </div>
       <Footer 
         home={home}
         aboutMe={aboutMe}
