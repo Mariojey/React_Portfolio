@@ -5,7 +5,7 @@ export default function Navbar(props){
     return(
         <div className="navbarContainer">
             <div className="navLogotyp">
-                <p>MarioJey</p>
+                <p></p>
             </div>
             <div className="navContent">
             <ul className="navList">

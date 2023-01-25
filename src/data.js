@@ -8,7 +8,8 @@ export default [{
             second: 'javascript',
             third: 'mongodb',
         },
-        coverImg: 'zirael.png'
+        coverImg: 'zirael.png',
+        href: 'https://github.com/Mariojey/Project-Zirael.git'
     },
     {
         id: 1,
@@ -19,7 +20,8 @@ export default [{
             second: 'cog',
             third: 'c-plus-plus',
         },
-        coverImg: 'gateway.png'
+        coverImg: 'gateway.png',
+        href: 'https://gateway.zstmielec.pl'
     },
     {
         id: 2,
@@ -41,6 +43,7 @@ export default [{
             second: 'html',
             third: 'css',
         },
-        coverImg: 'make_fluent.svg'
+        coverImg: 'make_fluent.svg',
+        href: 'https://mariojey.github.io/MakeFluent/'
     }
 ]

@@ -72,6 +72,7 @@
     font-family: 'Combo', cursive;
     color: var(--white);
     background-color: var(--black);
+    padding-top: 20px;
 }
 
 .navLogotyp {
@@ -324,6 +325,10 @@
     text-align: center;
     justify-content: center;
     padding-bottom: 100px;
+}
+
+.cardA {
+    text-decoration: none;
 }
 
 .card {
