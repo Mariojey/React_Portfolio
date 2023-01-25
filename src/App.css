@@ -1024,4 +1024,11 @@
         width: 90vw;
         min-height: 100px;
     }
+    .findAndContactMeRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 60vh;
+    }
 }
