@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 export default function Job(props){
     return(
      <div className="job">
-        <img src={`../images/${props.item.coverImg}`} className="jobImg" alt = "" />
+        <img src={`./images/${props.item.coverImg}`} className="jobImg" alt = "" />
         <div className="jobWrap">
             <div className="jobContent">
                 <div className="jobDetails">
