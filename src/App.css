@@ -986,6 +986,7 @@
         justify-content: center;
     }
     .aboutMeCodingText {
+        display: flex;
         width: 100%;
         font-family: 'Combo', cursive;
         font-size: var(--fontSize);
@@ -1002,8 +1003,13 @@
     }
     .aboutMeSchoolContestsVectors {
         width: 50%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     .aboutMeSchoolText {
+        display: flex;
         width: 100%;
         font-family: 'Combo', cursive;
         font-size: var(--fontSize);
