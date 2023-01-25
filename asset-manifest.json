@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2a284d4.css",
+    "main.js": "/static/js/main.16a9957c.js",
+    "static/media/repeated-square-dark.webp": "/static/media/repeated-square-dark.62c88ea9c16ae9b96df3.webp",
+    "index.html": "/index.html",
+    "main.d2a284d4.css.map": "/static/css/main.d2a284d4.css.map",
+    "main.16a9957c.js.map": "/static/js/main.16a9957c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2a284d4.css",
+    "static/js/main.16a9957c.js"
+  ]
+}
