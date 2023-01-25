@@ -52,7 +52,7 @@ function App() {
       <section className='cardList' id='cardList'>
         {cards}
       </section>
-      <div className="findAndContactMeRow">
+      <div className="findAndContactMeRow" id='contact'>
         <FindMe 
           type={find}
         />

@@ -19,7 +19,7 @@ export default function Navbar(props){
                         <a href="#cardList" className="navLink">{props.projects}</a>
                     </li>
                     <li className="navItem">
-                        <a href="#" className="navLink">{props.contact}</a>
+                        <a href="#contact" className="navLink">{props.contact}</a>
                     </li>
                 </ul>
             </div>
