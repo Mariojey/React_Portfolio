@@ -45,5 +45,18 @@ export default [{
         },
         coverImg: 'make_fluent.svg',
         href: 'https://mariojey.github.io/MakeFluent/'
+    },
+    {
+        id: 4,
+        title: "AR/VR System",
+        description: "App destined for gogle AR, which create edge of the objects",
+        technologies: {
+            first: 'unity',
+            second: '',
+            third: '',
+        },
+        coverImg: 'ar.png',
+        href: 'https://youtu.be/Jh-f217vy1g'
     }
+
 ]
