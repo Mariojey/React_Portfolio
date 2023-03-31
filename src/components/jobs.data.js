@@ -1,5 +1,17 @@
 export default [{
     id: 0,
+    name: 'COMP Soft Sp. zoo',
+    workplace: 'Intern',
+    technologies: {
+        first: 'nodejs',
+        second: 'react',
+        third: 'data'
+    },
+    begin: 'Feb 2023 -',
+    end: 'Mar 2023',
+    coverImg: 'comp-soft.jpg'
+}, {
+    id: 1,
     name: 'Polska Federacja Esportowa',
     workplace: 'Full-Stack Developer',
     technologies: {

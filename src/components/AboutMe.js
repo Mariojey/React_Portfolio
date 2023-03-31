@@ -36,7 +36,7 @@ export default function About(){
                 </div>
             </div>
             <div className="aboutMeFantasy"></div>
-            <h1 className='cardsHeader'>My Jobs</h1>
+            <h1 className='cardsHeader'>My Experience</h1>
             <div className="jobs">{jobs}</div>
         </div>
     )

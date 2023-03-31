@@ -454,6 +454,7 @@
 
 .job {
     margin-left: 50px;
+    margin-bottom: 60px;
     display: flex;
     width: 40vw;
     min-height: 100px;
@@ -511,7 +512,7 @@
 
 .jobTime {
     width: 75%;
-    min-height: 30px;
+    height: auto;
     display: flex;
     flex-direction: row;
     color: var(--greyForBackground);
