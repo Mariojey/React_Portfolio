@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import '../App.css';
 import textAboutMe from "./text.AboutMe";
 import Job from "./Job";
 import jobsData from "./jobs.data";
+import Typed from "typed.js";
 
 export default function About(){
 
@@ -14,6 +15,21 @@ export default function About(){
             />
         )
     })
+
+    const el = useRef(null);
+    
+    useEffect(() => {
+        const typed = new Typed(el.current, {
+            strings: [`MySQLdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\ndddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`, 'Oracle', 'mongoDB'],
+            typeSpeed: 100,
+            loop: true,
+            backSpeed: 80
+        });
+
+        return () => {
+            typed.destroy();
+        };
+    },[]);
 
     return(
         <div className="aboutMe" id="aboutMe">
@@ -37,7 +53,15 @@ export default function About(){
             </div>
             <div className="aboutMeFantasy"></div>
             <h1 className='cardsHeader'>My Experience</h1>
+            <div className="experience">
             <div className="jobs">{jobs}</div>
+            <div className="experienceText">
+                <div className="typing">
+                <span ref={el} />
+                </div>
+            </div>
+            </div>
+            
         </div>
     )
 }
