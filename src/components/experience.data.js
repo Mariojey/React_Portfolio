@@ -1,21 +1,8 @@
-export default [{
-    id: 0,
-    coverImg: 'ar.jpg',
-    text: 'I have experience in creating CRUD web apps with special filtrations and many features'
-}, {
-    id: 1,
-    coverImg: 'ar.jpg',
-    text: `I used to writing my CRUD project in MERN schemat.`
-}, {
-    id: 2,
-    coverImg: 'ar.jpg',
-    text: 'I can use Management System for databases like MySQL, Oracle, mongoDB'
-}, {
-    id: 3,
-    coverImg: 'ar.jpg',
-    text: 'I was writing a discord bot which instead of basic commands has a validation user system'
-}, {
-    id: 4,
-    coverImg: 'ar.jpg',
-    text: 'I can write andmin and user panel for login and management cruds.'
-}]
+export default [
+    `I was creating design pattern and writing \n source code of CRUD web application.`,
+    `I used to exploit MERN schemat \n backend - Node js with Express.JS \n frontend - ReactJS \n database - mongo`,
+    `I have experience in management relational databases. \n  I used DBMSs like MySQL, Oracle Databse. Also I can use MongoDBCompass.`,
+    `In my web apps I actively use built-in \n browsers mechanisms like \n cookie files or local storage.`,
+    `In my programming way also I met React Native \n when I was writing Mobile App`,
+    `My free time I spend on writing \n basic python program with using pygame`
+]

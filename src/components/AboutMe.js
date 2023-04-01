@@ -4,6 +4,7 @@ import textAboutMe from "./text.AboutMe";
 import Job from "./Job";
 import jobsData from "./jobs.data";
 import Typed from "typed.js";
+import experienceData from "./experience.data";
 
 export default function About(){
 
@@ -20,10 +21,10 @@ export default function About(){
     
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: [`MySQLdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\ndddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`, 'Oracle', 'mongoDB'],
+            strings: experienceData,
             typeSpeed: 100,
             loop: true,
-            backSpeed: 80
+            backSpeed: 40
         });
 
         return () => {
