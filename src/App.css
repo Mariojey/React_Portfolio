@@ -391,15 +391,78 @@
     min-height: 100vh;
 }
 
-.aboutMeCoding {
+.aboutMeContainer {
     width: 100%;
+    min-height: 900px;
+    border: 2px solid red;
     display: flex;
-    flex-direction: row;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 10vh;
 }
+
+.aboutMePattern {
+    position: absolute;
+    margin: auto;
+    width: 80%;
+    border: 2px solid blue;
+    display: flex;
+    text-align: left;
+    height: 12vh;
+}
+
+.patternNode {
+    animation: patternAnimation 7s 1s linear infinite;
+}
+
+.patternJavaScript {
+    animation: patternAnimation 7s 3s linear infinite;
+}
+
+.patternMongodb {
+    animation: patternAnimation 7s 5s linear infinite;
+}
+
+.patternReact {
+    animation: patternAnimation 7s 7s linear infinite;
+}
+
+@keyframes patternAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* .aboutMeCoding { */
+
+
+/* width: 100%; */
+
+
+/* display: flex; */
+
+
+/* flex-direction: row; */
+
+
+/* text-align: center; */
+
+
+/* align-items: center; */
+
+
+/* justify-content: center; */
+
+
+/* margin-top: 100px; */
+
+
+/* } */
 
 .aboutMeCodingVectors {
     width: 50%;
@@ -410,6 +473,8 @@
 }
 
 .aboutMeCodingText {
+    position: absolute;
+    margin: auto;
     width: 50%;
     font-family: 'Combo', cursive;
     font-size: var(--fontSize);
@@ -417,15 +482,25 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-left: 100px;
 }
 
-.aboutMeSchool {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-}
+
+/* .aboutMeSchool { */
+
+
+/* width: 100%; */
+
+
+/* display: flex; */
+
+
+/* flex-direction: row; */
+
+
+/* margin-top: 100px; */
+
+
+/* } */
 
 .aboutMeSchoolContestsVectors {
     width: 50%;
@@ -708,42 +783,91 @@
 /*VECTORS */
 
 .aboutMeVectorImg {
+    /* max-width: 12vw; */
+    /* max-height: 12vh; */
+    /* margin: 20px; */
+    /* transition: 600ms; */
+    display: inline-block;
+    height: 100%;
     max-width: 12vw;
-    max-height: 12vh;
-    margin: 20px;
-    transition: 600ms;
+    border: 2px solid green;
 }
 
 .aboutMeVectorImgSchool {
+    display: inline-block;
+    height: 100%;
     max-width: 12vw;
-    max-height: 12vh;
-    margin: 20px;
-    transition: 600ms;
+    border: 2px solid green;
 }
 
-.aboutMeVectorImg:nth-child(1):hover {
-    transform: translateY(-90px);
-}
 
-.aboutMeVectorImg:nth-child(2):hover {
-    transform: rotateY(180deg);
-}
+/* .aboutMeVectorImg:nth-child(1):hover { */
 
-.aboutMeVectorImg:nth-child(3):hover {
-    transform: rotateY(180deg) rotateX(180deg);
-}
 
-.aboutMeVectorImgSchool:nth-child(1):hover {
-    transform: rotate(1turn);
-}
+/* transform: translateY(-90px); */
 
-.aboutMeVectorImgSchool:nth-child(2):hover {
-    transform: rotateY(180deg);
-}
 
-.aboutMeVectorImgSchool:nth-child(3):hover {
-    transform: rotate(1turn);
-}
+/* } */
+
+
+/*  */
+
+
+/* .aboutMeVectorImg:nth-child(2):hover { */
+
+
+/* transform: rotateY(180deg); */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .aboutMeVectorImg:nth-child(3):hover { */
+
+
+/* transform: rotateY(180deg) rotateX(180deg); */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .aboutMeVectorImgSchool:nth-child(1):hover { */
+
+
+/* transform: rotate(1turn); */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .aboutMeVectorImgSchool:nth-child(2):hover { */
+
+
+/* transform: rotateY(180deg); */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .aboutMeVectorImgSchool:nth-child(3):hover { */
+
+
+/* transform: rotate(1turn); */
+
+
+/* } */
 
 
 /* FIND ME */
@@ -1141,63 +1265,99 @@
     .aboutMe {
         width: 100%;
         min-height: 100vh;
+        padding-top: 200px;
     }
-    .aboutMeCoding {
+    .aboutMeContainer {
         width: 100%;
+        min-height: 900px;
+        border: 2px solid red;
         display: flex;
-        flex-direction: column;
         text-align: center;
         align-items: center;
         justify-content: center;
-        margin-top: 100px;
+        margin-top: 30vvh;
+        margin-bottom: 30vh;
     }
+    .aboutMePattern {
+        position: absolute;
+        margin: auto;
+        width: 80%;
+        border: 2px solid blue;
+        display: flex;
+        text-align: left;
+    }
+    .patternNode {
+        animation: patternAnimation 7s 1s linear infinite;
+    }
+    .patternJavaScript {
+        animation: patternAnimation 7s 3s linear infinite;
+    }
+    .patternMongodb {
+        animation: patternAnimation 7s 5s linear infinite;
+    }
+    .patternReact {
+        animation: patternAnimation 7s 7s linear infinite;
+    }
+    @keyframes patternAnimation {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    /* .aboutMeCoding { */
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-top: 100px; */
+    /* } */
     .aboutMeCodingVectors {
-        width: 100%;
+        width: 50%;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
     .aboutMeCodingText {
-        display: flex;
-        width: 100%;
+        position: absolute;
+        margin: auto;
+        width: 50%;
         font-family: 'Combo', cursive;
         font-size: var(--fontSize);
         color: var(--white);
         text-align: center;
         align-items: center;
         justify-content: center;
-    }
-    .aboutMeSchool {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin-top: 100px;
     }
     .aboutMeSchoolContestsVectors {
-        width: 100%;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+        width: 50%;
     }
     .aboutMeSchoolText {
-        display: flex;
-        width: 100%;
+        width: 50%;
         font-family: 'Combo', cursive;
         font-size: var(--fontSize);
         color: var(--white);
         text-align: center;
         align-items: center;
         justify-content: center;
+        padding-left: 100px;
+    }
+    .aboutMeVectorImg {
+        /* max-width: 12vw; */
+        /* max-height: 12vh; */
+        /* margin: 20px; */
+        /* transition: 600ms; */
+        height: 100%;
+        width: 100%;
     }
     /*EXERIENCE RESPONSIVE*/
     .experience {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         height: auto;
     }
