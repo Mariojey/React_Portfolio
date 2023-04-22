@@ -394,7 +394,6 @@
 .aboutMeContainer {
     width: 100%;
     min-height: 900px;
-    border: 2px solid red;
     display: flex;
     text-align: center;
     align-items: center;
@@ -406,7 +405,6 @@
     position: absolute;
     margin: auto;
     width: 80%;
-    border: 2px solid blue;
     display: flex;
     text-align: left;
     height: 12vh;
@@ -790,14 +788,12 @@
     display: inline-block;
     height: 100%;
     max-width: 12vw;
-    border: 2px solid green;
 }
 
 .aboutMeVectorImgSchool {
     display: inline-block;
     height: 100%;
     max-width: 12vw;
-    border: 2px solid green;
 }
 
 
@@ -1270,7 +1266,6 @@
     .aboutMeContainer {
         width: 100%;
         min-height: 900px;
-        border: 2px solid red;
         display: flex;
         text-align: center;
         align-items: center;
@@ -1282,7 +1277,6 @@
         position: absolute;
         margin: auto;
         width: 80%;
-        border: 2px solid blue;
         display: flex;
         text-align: left;
     }
